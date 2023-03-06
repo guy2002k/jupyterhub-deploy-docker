@@ -1,6 +1,6 @@
 # Pypi Packages
-nbgitpuller - 1.1.1
-nbgitpuller-link - 0.2.4
+- nbgitpuller - 1.1.1
+- nbgitpuller-link - 0.2.4
 
 # Images
 jupyter/minimal-notebook
