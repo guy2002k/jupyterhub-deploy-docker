@@ -1,3 +1,7 @@
 secrets/
 userlist
 .DS_Store
+
+**/*.whl
+**/*.tar
+**/*.rar
