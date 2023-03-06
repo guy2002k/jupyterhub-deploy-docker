@@ -1,0 +1,6 @@
+ARG IMAGE_FULL_PATH
+ARG IMAGE_TAG
+FROM $IMAGE_FULL_PATH:$IMAGE_TAG
+
+RUN python3 -m pip install --no-cache-dir \
+    nbgitpuller
