@@ -5,6 +5,15 @@
 version: "3"
 
 services:
+  notebook:
+    build:
+      context: dockerfiles
+      dockerfile: Dockerfile.jupyternotebook
+      args:
+        IMAGE_FULL_PATH: jupyter/minimal-notebook
+        IMAGE_TAG: latest
+    image: jupyter/custom-minimal-notebook
+
   hub:
     build:
       context: .
