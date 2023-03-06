@@ -4,7 +4,7 @@
 
 # Images
 jupyter/minimal-notebook
-image digest: 6b3175dbf681
+- image digest: 6b3175dbf681
 
 ## Pypi Packaes
 - hub - 3.1.1
@@ -18,7 +18,7 @@ image digest: 6b3175dbf681
 - os: ubuntu - 20.04
 
 jupyterhub/jupyterhub - 3.0.0
-image digest: ebe69134c17e
+- image digest: ebe69134c17e
 
 - dockerspawner==12.*
 - jupyterhub-nativeauthenticator==1.*
