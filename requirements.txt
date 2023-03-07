@@ -1,2 +1,4 @@
 nbgitpuller==1.1.1
 nbgitpuller-link==0.2.4
+dockerspawner==12.*
+jupyterhub-nativeauthenticator==1.*
